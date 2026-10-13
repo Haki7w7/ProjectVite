@@ -1,0 +1,13 @@
+{
+    "mensaje": "Hola, typeScript",
+     "users": [
+        {
+            "name": "Aaron",
+            "age": 30
+        },
+        {
+            "name": "Juan",
+            "age": 25
+        }
+     ]
+}
