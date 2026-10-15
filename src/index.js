@@ -13,9 +13,12 @@ const taskInput = document.querySelector(".taskInput");
 const taskButton = document.querySelector(".taskButton");
     
 taskButton.addEventListener("click", (e) => {
-console.log(taskInput.value);
+    console.log(taskInput.value);
 
-data.users.push({name: taskInput.value, age: 20});
+data.users.push({
+    name: taskInput.value, 
+    age: 20
+});
 
 renderUsers(); 
 taskInput.value = "";
